@@ -103,6 +103,7 @@ public class test extends AppCompatActivity {
 
 
         LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        assert vi != null;
         v = vi.inflate(R.layout.content_main, null);
 
 // fill in any details dynamically here
